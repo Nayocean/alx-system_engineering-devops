@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
 # pings an IP address passed as an argument
 if [ "$1" == "" ]; then
 	echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
@@ -6,4 +7,13 @@ else
 	ping -c 5 "$1"
 fi
 
+=======
+# pings an ip address passed as an argument
+if [ "$1" == "" ]; then
+    echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+else
+    ping -c 5 "$1"
+fi
+    
+>>>>>>> 5ea95263f327bf59c82d604d6b7f36d377f00128
 
